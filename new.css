@@ -1,0 +1,25 @@
+.review {
+    height: 100px;
+}
+.review_wrapp {
+    width: 300px;
+    padding: 10px;
+}
+.review_wrapp input {
+    margin-bottom: 10px;
+}
+.header {
+    margin-bottom: 15px;
+}
+.name, .place, .review {
+    width: 250px;
+}
+.cluster_header {
+    display: flex
+}
+.cluster_name {
+    font-weight: 800;
+}
+.cluster_place {
+    margin-left: 3px;
+}
