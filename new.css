@@ -1,8 +1,14 @@
 .review {
     height: 100px;
+    resize: none;
+    margin-bottom: 13px
+}
+.review::placeholder {
+    font-size: 14px;
+    font-family: Arial;
 }
 .review_wrapp {
-    width: 300px;
+    width: 252px;
     padding: 10px;
 }
 .review_wrapp input {
@@ -14,6 +20,11 @@
 .name, .place, .review {
     width: 250px;
 }
+
+.cluster{
+margin-left: 10px;
+}
+
 .cluster_header {
     display: flex
 }

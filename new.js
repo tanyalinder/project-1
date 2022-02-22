@@ -37,7 +37,7 @@ function init () {
             '<div class="header"><b>Отзыв:</b></div>' +
                 '<input class="name" placeholder="Укажите ваше имя"> ' +
                 '<input class="place" placeholder="Укажите место"> ' +
-                '<input class="review" placeholder="Укажите место"> ' +
+                '<textarea class="review" rows="10" cols="45" placeholder="Оставьте отзыв" name="text"></textarea>'+
                 '<button id="counter-button">Добавить</button>' +
             '</div>', {
                 build: function () {
@@ -79,7 +79,7 @@ function init () {
             clusterBalloonContentLayout: BalloonContentLayout
         });
 
-        var balloon = new ymaps.Balloon(myMap, {closeButton: true, 
+        var balloon = new ymaps.Balloon(myMap, {closeButton: true, maxWidth: 277,
             contentLayout: BalloonContentLayout
         }); 
         balloon.options.setParent(myMap.options);
